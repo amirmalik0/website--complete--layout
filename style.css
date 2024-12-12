@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: roboto;
+}
+.logo{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    font-weight: bold;
+}
+nav ul li{
+list-style: none;
+}
+nav button {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.main{
+    display: flex;
+}
+.main img {
+    height: 38%;
+    width: 50%;
+    margin-left: 5px;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 80px;
+}
+.heading2 {
+    font-size: x-large;
+    margin-left: 80px;
+}
+.mini{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+header button {
+    height: 50px;
+    width: 40%;
+    background-color: black;
+    color: white;
+    /* justify-content: center; */
+    margin-right: 248px;
+    font-size: large;
+}
+.boxmain{
+    display: flex; 
+    justify-content: space-evenly;
+    
+}
+.box1{
+    /* display: flex; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 80%;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.box2{
+    /* display: flex; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 80%;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+
+
+}
+.box3{
+    /* display: flex; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 80%;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    
+}
+    
+    .minibox{ 
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+
+    .second-header{
+        display: flex;
+    }
+    .Features{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .minibox1 h1{
+        font-size: 40px;
+        text-align: left;
+    }
+    .boxmain1{
+        display: flex; 
+        justify-content: space-evenly; 
+    }
+
+    .box1{
+        text-align: start;
+    }
+    .box2{
+        text-align: start;
+    }
+    .box3{
+        text-align: start;
+    }
+    .box1 h2 , .box2 h2 , .box3 h2 {
+        font-weight: normal;
+    }
+    .box1 h1 , .box2 h1 , .box3 h1 {
+        font-weight: 3000;
+        font-size: 70px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .footer2{
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        width: 40%;
+        height: 55px
+    }
+    
+    .button{
+        background-color: black;
+        color: white;
+        margin: 0;
+        width: 100px;
+        height: 45px;
+    }
+    .footer2 input{
+        height: 50px;
+        width: 70%;
+        border-style: none;
+        padding-left: 30px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    
+    
